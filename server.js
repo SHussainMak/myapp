@@ -12,9 +12,9 @@ const PORT = normalizePort(process.env.PORT || 5000);
 const app = express();
 const dev = app.get('evn') !== 'production';
 
-if(!dev) {
+if (!dev) {
     app.disable('x-powered-by');
-    app.use(express());
+    app.use(compression());
     app.use(morgan('common'));
 
     app.use(express.static(path.resolve(__dirname, 'build')));
