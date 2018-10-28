@@ -1,0 +1,93 @@
+._bd-container {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+._img-div {
+    width: 48%;
+    display: inline-block;
+    margin-top: 3rem;
+    border: solid aliceblue .25px;
+    margin-left: .25rem;
+}
+
+._img {
+    width: 97%;
+    height: 15rem;
+    margin: .25em;
+}
+
+
+._img-container {
+    width: 70%;
+    display: inline-block;
+}
+
+._aside-container {
+    display: inline-block;
+    top: 5rem;
+    position: absolute;
+}
+._aside-container input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+._aside-container .search-container button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+._as-img {
+    width: 97%;
+    height: 15rem;
+    margin: .25em;
+    z-index: 99999;
+    border-radius: 1rem ;
+}
+._as-img-con {
+    margin: .5rem
+}
+
+._as-img-div {
+    margin-bottom: 2rem;
+    box-shadow:
+    4px 1px 2px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+}
+
+._as-img-div:hover {
+    box-shadow:
+            3px 1px 2px 3px rgba(0.3, 0.3, 0.3, 0.3), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+}
+
+._pl-name {
+    text-align: center;
+}
+
+._rec-div {
+    height: 100rem;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #e5ebf4;
+    border-radius: 10px;
+}
