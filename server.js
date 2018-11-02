@@ -13,11 +13,11 @@ const app = express();
 const dev = app.get('evn') !== 'production';
 
 if (!dev) {
-    app.disable('x-powered-by');
-    app.use(compression());
-    app.use(morgan('common'));
+    // app.disable('x-powered-by');
+    // app.use(compression());
+    // app.use(morgan('common'));
 
-    app.use(express.static(path.join(__dirname+'build')));
+    // app.use(express.static(path.join(__dirname+'build')));
 
     app.get("*", (req, res) => {
         res.sendFile(path.join(__dirname + 'build/index.html'));
