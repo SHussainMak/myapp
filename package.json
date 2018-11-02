@@ -26,5 +26,19 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "travel",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SHussainMak/myapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SHussainMak/myapp/issues"
+  },
+  "homepage": "https://github.com/SHussainMak/myapp#readme"
 }
