@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.505ac386.chunk.css",
-  "main.js": "/static/js/main.3d8a51a0.chunk.js",
-  "main.js.map": "/static/js/main.3d8a51a0.chunk.js.map",
-  "static/js/1.2f4a474a.chunk.js": "/static/js/1.2f4a474a.chunk.js",
-  "static/js/1.2f4a474a.chunk.js.map": "/static/js/1.2f4a474a.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/main.505ac386.chunk.css.map": "/static/css/main.505ac386.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.f49584086b32489663c7f94e02b022c5.js": "/precache-manifest.f49584086b32489663c7f94e02b022c5.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/SHussainMak/myapp/static/css/main.505ac386.chunk.css",
+  "main.js": "/SHussainMak/myapp/static/js/main.2bca9c6d.chunk.js",
+  "main.js.map": "/SHussainMak/myapp/static/js/main.2bca9c6d.chunk.js.map",
+  "static/js/1.2f4a474a.chunk.js": "/SHussainMak/myapp/static/js/1.2f4a474a.chunk.js",
+  "static/js/1.2f4a474a.chunk.js.map": "/SHussainMak/myapp/static/js/1.2f4a474a.chunk.js.map",
+  "runtime~main.js": "/SHussainMak/myapp/static/js/runtime~main.5b590223.js",
+  "runtime~main.js.map": "/SHussainMak/myapp/static/js/runtime~main.5b590223.js.map",
+  "static/css/main.505ac386.chunk.css.map": "/SHussainMak/myapp/static/css/main.505ac386.chunk.css.map",
+  "index.html": "/SHussainMak/myapp/index.html",
+  "precache-manifest.432f12ea5264855bb70f9f2a9b355b1b.js": "/SHussainMak/myapp/precache-manifest.432f12ea5264855bb70f9f2a9b355b1b.js",
+  "service-worker.js": "/SHussainMak/myapp/service-worker.js"
 }
