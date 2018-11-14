@@ -10,23 +10,16 @@ const normalizePort = port => parseInt(port , 10);
 const PORT = normalizePort(process.env.PORT || 5000);
 
 const app = express();
-const dev = app.get('evn') !== 'production';
 
-if (!dev) {
-    // app.disable('x-powered-by');
-    // app.use(compression());
-    // app.use(morgan('common'));
+app.disable('x-powered-by');
+app.use(compression());
+app.use(morgan('common'));
 
-    // app.use(express.static(path.join(__dirname+'build')));
+app.use(express.static(path.join(__dirname, 'build')));
 
-    app.get("*", (req, res) => {
-        res.sendFile(path.join(__dirname + 'build/index.html'));
-    });
-}
-
-if(dev) {
-    app.use(morgan('dev'));
-}
+app.get('/*', function(req, res) {
+    res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
 
 const server = createServer(app);
 
